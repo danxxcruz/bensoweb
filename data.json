@@ -1,0 +1,322 @@
+[
+  {
+    "id": "0001",
+    "nombre": "Abdel A. López Carbonell",
+    "foto": "fotos/0001.jpg"
+  },
+  {
+    "id": "0002",
+    "nombre": "Addiel Simon",
+    "foto": "fotos/0002.jpg"
+  },
+  {
+    "id": "0003",
+    "nombre": "Ahyron Carlos Gainza Díaz",
+    "foto": "fotos/0003.jpg"
+  },
+  {
+    "id": "0004",
+    "nombre": "Ailen Toledo González",
+    "foto": "fotos/0004.jpg"
+  },
+  {
+    "id": "0005",
+    "nombre": "Anisley Garc�a Romero",
+    "foto": "fotos/0005.jpg"
+  },
+  {
+    "id": "0006",
+    "nombre": "Aniuska Matos Reyes",
+    "foto": "fotos/0006.jpg"
+  },
+  {
+    "id": "0007",
+    "nombre": "Ariadna Rosa Rodr�guez Silva",
+    "foto": "fotos/0007.jpg"
+  },
+  {
+    "id": "0008",
+    "nombre": "Arismeilyn Reyes Peraza",
+    "foto": "fotos/0008.jpg"
+  },
+  {
+    "id": "0009",
+    "nombre": "Bessy Cuti� Batista",
+    "foto": "fotos/0009.jpg"
+  },
+  {
+    "id": "0010",
+    "nombre": "Carlos Aguilar L�pez",
+    "foto": "fotos/0010.jpg"
+  },
+  {
+    "id": "0011",
+    "nombre": "Carlos D�az",
+    "foto": "fotos/0011.jpg"
+  },
+  {
+    "id": "0012",
+    "nombre": "Carlos R. Palacio Cubas",
+    "foto": "fotos/0012.jpg"
+  },
+  {
+    "id": "0013",
+    "nombre": "Cynthia Yinet Fajardo Mir�",
+    "foto": "fotos/0013.jpg"
+  },
+  {
+    "id": "0014",
+    "nombre": "Daileny Rodr�guez Castillo",
+    "foto": "fotos/0014.jpg"
+  },
+  {
+    "id": "0015",
+    "nombre": "Daniel Fernando Caymari Anazco",
+    "foto": "fotos/0015.jpg"
+  },
+  {
+    "id": "0016",
+    "nombre": "Daniella Brito Castillo",
+    "foto": "fotos/0016.jpg"
+  },
+  {
+    "id": "0017",
+    "nombre": "Dayanny Porcegu� Valle",
+    "foto": "fotos/0017.jpg"
+  },
+  {
+    "id": "0018",
+    "nombre": "Dianik Nu�ez Gonzalez",
+    "foto": "fotos/0018.jpg"
+  },
+  {
+    "id": "0019",
+    "nombre": "Dora Emilia Jim�nez P�rez",
+    "foto": "fotos/0019.jpg"
+  },
+  {
+    "id": "0020",
+    "nombre": "Elianna G�mez Murillo",
+    "foto": "fotos/0020.jpg"
+  },
+  {
+    "id": "0021",
+    "nombre": "Emily",
+    "foto": "fotos/0021.jpg"
+  },
+  {
+    "id": "0022",
+    "nombre": "Enaidis Revuelta Santana",
+    "foto": "fotos/0022.jpg"
+  },
+  {
+    "id": "0023",
+    "nombre": "George Carlos Cantero Zamora",
+    "foto": "fotos/0023.jpg"
+  },
+  {
+    "id": "0024",
+    "nombre": "Gretcheen Jim�nez Guerra",
+    "foto": "fotos/0024.jpg"
+  },
+  {
+    "id": "0025",
+    "nombre": "Hainer Jonas Gonz�lez D�az",
+    "foto": "fotos/0025.jpg"
+  },
+  {
+    "id": "0026",
+    "nombre": "Iv�n Herrera Morales",
+    "foto": "fotos/0026.jpg"
+  },
+  {
+    "id": "0027",
+    "nombre": "Javier Enrique Herrera Aguila",
+    "foto": "fotos/0027.jpg"
+  },
+  {
+    "id": "0028",
+    "nombre": "Josu� David P�rez Valerino",
+    "foto": "fotos/0028.jpg"
+  },
+  {
+    "id": "0029",
+    "nombre": "Karla de la Caridad Garc�a Castro",
+    "foto": "fotos/0029.jpg"
+  },
+  {
+    "id": "0030",
+    "nombre": "Karla Evelisse Morales Ruiz",
+    "foto": "fotos/0030.jpg"
+  },
+  {
+    "id": "0031",
+    "nombre": "Katia Rodr�guez Garc�a",
+    "foto": "fotos/0031.jpg"
+  },
+  {
+    "id": "0032",
+    "nombre": "Kerslin Vel�zquez Rodr�guez",
+    "foto": "fotos/0032.jpg"
+  },
+  {
+    "id": "0033",
+    "nombre": "Leidy Arazay Garc�a Romero",
+    "foto": "fotos/0033.jpg"
+  },
+  {
+    "id": "0034",
+    "nombre": "Leugin Antonio Peralta Banguela",
+    "foto": "fotos/0034.jpg"
+  },
+  {
+    "id": "0035",
+    "nombre": "Leyamys Ramos Ramos",
+    "foto": "fotos/0035.jpg"
+  },
+  {
+    "id": "0036",
+    "nombre": "Lidice Mesa G�mez",
+    "foto": "fotos/0036.jpg"
+  },
+  {
+    "id": "0037",
+    "nombre": "Lidice Rodriguez Rodriguez",
+    "foto": "fotos/0037.jpg"
+  },
+  {
+    "id": "0038",
+    "nombre": "Linnet Castillo Betancourt",
+    "foto": "fotos/0038.jpg"
+  },
+  {
+    "id": "0039",
+    "nombre": "Liuva Mar�a Echarte Aguiar",
+    "foto": "fotos/0039.jpg"
+  },
+  {
+    "id": "0040",
+    "nombre": "Lizandra Cepero Girao",
+    "foto": "fotos/0040.jpg"
+  },
+  {
+    "id": "0041",
+    "nombre": "Maray Carmona Guill�n",
+    "foto": "fotos/0041.jpg"
+  },
+  {
+    "id": "0042",
+    "nombre": "Maritza de la Caridad Lopez Quesada",
+    "foto": "fotos/0042.jpg"
+  },
+  {
+    "id": "0043",
+    "nombre": "Martha Emilia Garc�a Almaguer",
+    "foto": "fotos/0043.jpg"
+  },
+  {
+    "id": "0044",
+    "nombre": "Mayelin Riviaux Atie",
+    "foto": "fotos/0044.jpg"
+  },
+  {
+    "id": "0045",
+    "nombre": "Melissa Maura Rodr�guez Rodr�guez",
+    "foto": "fotos/0045.jpg"
+  },
+  {
+    "id": "0046",
+    "nombre": "Miguel �ngel Yanes Perez",
+    "foto": "fotos/0046.jpg"
+  },
+  {
+    "id": "0047",
+    "nombre": "Milagro de las Mercedes Enriquez Piedra",
+    "foto": "fotos/0047.jpg"
+  },
+  {
+    "id": "0048",
+    "nombre": "Nairobis Rev� Mel�ndez",
+    "foto": "fotos/0048.jpg"
+  },
+  {
+    "id": "0049",
+    "nombre": "Neyanis Idalmis Guerra Ramos",
+    "foto": "fotos/0049.jpg"
+  },
+  {
+    "id": "0050",
+    "nombre": "Raquel Balido Le�n",
+    "foto": "fotos/0050.jpg"
+  },
+  {
+    "id": "0051",
+    "nombre": "Reynaldo Llanes Cadalzo",
+    "foto": "fotos/0051.jpg"
+  },
+  {
+    "id": "0052",
+    "nombre": "Ronny Toledo",
+    "foto": "fotos/0052.jpg"
+  },
+  {
+    "id": "0053",
+    "nombre": "Rub�n Antonio Viera Mar�n",
+    "foto": "fotos/0053.jpg"
+  },
+  {
+    "id": "0054",
+    "nombre": "Sabrina Mar�a G�mez D�az",
+    "foto": "fotos/0054.jpg"
+  },
+  {
+    "id": "0055",
+    "nombre": "Sathmara P�rez G�mez",
+    "foto": "fotos/0055.jpg"
+  },
+  {
+    "id": "0056",
+    "nombre": "Surisleidy Torrijos Ben�tez",
+    "foto": "fotos/0056.jpg"
+  },
+  {
+    "id": "0057",
+    "nombre": "Yaimy Lara Arias",
+    "foto": "fotos/0057.jpg"
+  },
+  {
+    "id": "0058",
+    "nombre": "Yaniris Valle Mach�n",
+    "foto": "fotos/0058.jpg"
+  },
+  {
+    "id": "0059",
+    "nombre": "Yeilis Hern�ndez D�az",
+    "foto": "fotos/0059.jpg"
+  },
+  {
+    "id": "0060",
+    "nombre": "Yisel D�az Herrera",
+    "foto": "fotos/0060.jpg"
+  },
+  {
+    "id": "0061",
+    "nombre": "Yolanda Rodr�guez Dieguez",
+    "foto": "fotos/0061.jpg"
+  },
+  {
+    "id": "0062",
+    "nombre": "Yurien Rosales Ferro",
+    "foto": "fotos/0062.jpg"
+  },
+  {
+    "id": "0063",
+    "nombre": "Zelma Maria Carvajal de la Cruz",
+    "foto": "fotos/0063.jpg"
+  },
+  {
+    "id": "0064",
+    "nombre": "Zulia Esmeralda Gonz�lez Semanat",
+    "foto": "fotos/0064.jpg"
+  }
+]
