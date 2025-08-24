@@ -2,113 +2,81 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Certificado</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Certificate of Completion</title>
-  
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Bootstrap Icons -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
-      background: linear-gradient(135deg, #f0f4f8, #dbeafe);
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
-    .certificate-container {
-      max-width: 700px;
-      margin: 60px auto;
-      text-align: center;
+    .card {
+      border: none;
+      border-radius: 1.5rem;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
       background: #fff;
-      padding: 50px 40px;
-      border-radius: 24px;
-      box-shadow: 0 8px 25px rgba(0,0,0,0.12);
     }
-    .logo {
-      width: 160px;
-      margin-bottom: 25px;
-    }
-    .profile-pic {
-      width: 130px;
-      height: 130px;
+    #foto {
+      width: 180px;
+      height: 180px;
       object-fit: cover;
-      border-radius: 50%;
-      border: 5px solid #007bff;
-      margin: 20px 0;
+      border: 5px solid #fff;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
-    h1 {
-      font-size: 2rem;
+    h2 {
       font-weight: 700;
-      margin-bottom: 15px;
+      margin-top: 15px;
     }
-    .congrats {
-      font-size: 1.2rem;
-      font-weight: 500;
-      margin-bottom: 25px;
-      color: #333;
+    p {
+      color: #555;
+      font-size: 1.1rem;
     }
-    .footer-text {
-      font-size: 0.95rem;
-      color: #666;
-      margin-top: 40px;
-      font-style: italic;
-    }
-    .social-links a {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 45px;
-      height: 45px;
-      margin: 0 8px;
-      font-size: 20px;
-      border-radius: 50%;
-      color: #fff;
-      transition: background 0.3s ease, transform 0.2s ease;
-    }
-    .social-links a:hover {
-      transform: scale(1.1);
-    }
-    .social-links .linkedin { background: #0a66c2; }
-    .social-links .github { background: #171515; }
-    .social-links .twitter { background: #1da1f2; }
-    .social-links .facebook { background: #1877f2; }
   </style>
 </head>
-<body>
-  <div class="container">
-    <div class="certificate-container">
-      <!-- Logo -->
-      <img src="logo.png" alt="Logo" class="logo">
-      
-      <!-- Title -->
-      <h1>Certificate of Completion</h1>
+<body class="d-flex align-items-center justify-content-center vh-100">
 
-      <!-- Profile Picture -->
-      <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
-
-      <!-- Graduate Name -->
-      <h2>John Doe</h2>
-
-      <!-- Congrats Message -->
-      <p class="congrats">
-        Congratulations! You have successfully completed the <strong>Business Mastery Program</strong>.  
-        Your dedication and effort throughout the course are truly commendable.  
-      </p>
-
-      <!-- Social Links (optional, could be replaced with date/signature) -->
-      <div class="social-links">
-        <a href="https://linkedin.com" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        <a href="https://github.com" target="_blank" class="github"><i class="bi bi-github"></i></a>
-        <a href="https://twitter.com" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="https://facebook.com" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
-      </div>
-
-      <!-- Footer -->
-      <p class="footer-text">
-        Issued on August 2025 • BENSO Academy  
-      </p>
+  <div class="container text-center">
+    <!-- Logo -->
+    <img id="logo" src="logo.png" alt="Logo" class="mb-4" style="height:80px;">
+    
+    <!-- Certificado -->
+    <div class="card p-5">
+      <img id="foto" src="" class="rounded-circle mx-auto mb-3" alt="Foto del estudiante">
+      <h2 id="nombre">Nombre Apellido</h2>
+      <p class="mt-3">Ha completado satisfactoriamente el programa de capacitación.</p>
     </div>
   </div>
+
+  <script>
+    async function cargar() {
+      // Obtener ID de la URL
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get("id");
+
+      if (!id) {
+        document.body.innerHTML = "<h3 class='text-center mt-5'>⚠️ No se especificó un ID</h3>";
+        return;
+      }
+
+      // Cargar archivo JSON
+      const resp = await fetch("data.json");
+      const data = await resp.json();
+
+      // Buscar al estudiante
+      const student = data.find(s => s.id === id);
+
+      if (!student) {
+        document.body.innerHTML = "<h3 class='text-center mt-5'>❌ ID no encontrado</h3>";
+        return;
+      }
+
+      // Rellenar certificado
+      document.getElementById("nombre").innerText = student.nombre;
+      document.getElementById("foto").src = student.foto;
+    }
+
+    cargar();
+  </script>
+
 </body>
 </html>
